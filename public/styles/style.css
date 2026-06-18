@@ -1,0 +1,48 @@
+body {
+	font-family: "Butterfly Kids", cursive;
+	font-weight: 400;
+	font-style: normal;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+p {
+	font-size: 2em;
+}
+
+.cat_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cat_card {
+	border: 2px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 5%;
+	background-color: lightpink;
+}
+
+.cat_card img {
+	max-width: 500px;
+	height: auto;
+}
+
+#cat_button {
+	font-family: "Nunito", sans-serif;
+	font-size: large;
+	background-color: hotpink;
+	padding: 1rem;
+	margin-top: 2rem;
+	border-radius: 5%;
+}

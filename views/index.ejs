@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Cat Stuff</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<h1>Random Cat Stuff</h1>
+		<p>Click on the button to get a new random cat gif!</p>
+
+		<div class="cat_container">
+			<div class="cat_card">
+			<img id="cat_gif" src=<%= gif %> />
+			<form method="get" action="/gif">
+				<button id="cat_button" type="submit">New gif</button> 
+			</form>
+			</div>
+		</div> 
+
+	</body>
+</html>
